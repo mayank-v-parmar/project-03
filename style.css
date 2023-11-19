@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color:#2b2922;
+}
+
+.container{
+    
+    height: 100%;
+    width: 100%;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+.navbar{
+    display: flex;
+    width: 80%;
+    height: auto;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:3%;
+}
+
+.navbar img[src="./assets/white-logo.png"]{
+    width: 120px;
+    height: 40px;
+}
+
+.list{
+    list-style: none;
+    display: inline-flex;
+    width: 150%;
+    margin-right: -50px;
+}
+
+.list-item{
+    padding-left: 5%;
+    color: #a7a59d;
+    font-family: Montserrat;
+    font-weight:400;
+}
+
+.list-item:hover{
+    color: #fff;
+    font-weight: 600;
+}
+
+.button{
+    display: inline-block;
+    border: 1.5px solid #877932;
+    border-radius: 10px;
+    background: transparent;
+    color: #877932;
+    padding: 12px 30px;
+    font-size: 15px;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin-left: -100px;
+}
+
+button:hover{
+    cursor:pointer ;
+}
+
+.hero{
+    display: flex;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+}
+
+.hero-heading{
+    color: #f1f0ef;
+    flex:1;
+    font-family: Montserrat;
+    font-weight: 700; 
+    font-size: 60px;
+    text-align: left;
+    flex-wrap: wrap;
+}
+.description{
+    flex:0.6;
+     display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    color: #a7a59d;
+    font-family: Montserrat;
+    font-weight: 400; 
+    align-items:flex-start;
+    text-align: left;
+    padding-left: 0px;
+    padding-top: 50px;
+}
+
+.image{
+    background-color:aqua;
+    width:100%;
+    height:60%;
+}
+
+.image img[src="./assets/pexels-ekaterina-bolovtsova-6077326.jpg"]{
+        width: 100%;
+        height: 100%;
+}
+
+.cta {
+    height: 124px;
+    display: flex;
+    justify-content: end;
+  }
+  
+  .left-btn {
+    border: none;
+    background: #39372d;
+    padding: 32px;
+    margin: 0;
+  }
+  
+  .right-btn {
+    border: none;
+    background: #a08f36;
+    padding: 32px;
+    margin: 0;
+  }
+  
+
